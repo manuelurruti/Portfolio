@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded&display=swap");
+
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+  background-color: #2b2b2b;
+
+  font-family: 'Unbounded', cursive;
+}
+
+
+#header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  height: 10vh;
+  list-style: none;
+  background-color: #2b2b2b;
+  color: floralwhite;
+
+}
+.ulHeader a {
+  list-style: none;
+  text-decoration: none;
+  color:floralwhite
+}
+.HoverBlack:hover {
+  color: #a56606;
+}/*# sourceMappingURL=header.css.map */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  fill: red !important;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    position: relative;
+    bottom: 60px;
+  }
+}
+.App-header {
+  background-color: #2b2b2b;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 250px;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.name {
+  position: relative;
+  bottom: 280px;
+  background-color: transparent;
+}
+
+.jeje:hover {
+  color: red;
+  background-color: red;
+}
+
+.text {
+  position: relative;
+  bottom: 240px;
+  background-color: transparent;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(900deg);
+  }
+}/*# sourceMappingURL=Main.css.map */
+.AboutMe{
+  height: 100vh;
+  display: flex;
+  padding-left: 150px;
+  padding-right: 150px;
+
+  align-items: center;
+  
+}
+.Color{
+  color:floralwhite;
+  line-height:2;
+  margin-top: 200px;
+}
+.position {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.slider {
+  width: 65vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.slider .slide-track {
+  display: flex;
+  animation: scroll 20s linear infinite;
+  -webkit-animation: scroll 20s linear infinite;
+  width: calc(120px * 22); /* Separacion entre iconos */
+}
+
+.slider .slide {
+  width: 200px;
+}
+
+@keyframes scroll {
+  0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+  }
+  100% {
+      -webkit-transform: translateX(calc(-120px * 11));
+      transform: translateX(calc(-120px * 11));
+  }
+}
+.Skills{
+  height: 100vh;
+}
+.icon{
+  font-size: 70px;
+  color:floralwhite;
+}
+.SkillText{
+  padding-bottom: 130px;
+  padding-top: 66px;
+  color:floralwhite;
+}
+
+.SkillTexto{
+  padding-top: 150px;
+  color:floralwhite;
+}
+.PB{
+  color: floralwhite;
+  padding-top: 75px;
+  
+}
+.px{
+  font-size: 20px;
+  padding-left: 15px;
+}
