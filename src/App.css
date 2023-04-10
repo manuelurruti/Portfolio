@@ -8,7 +8,9 @@
 
   font-family: 'Unbounded', cursive;
 }
-
+.AboutMe{
+  height: 100vh;
+}
 
 #header {
   display: flex;
@@ -84,19 +86,11 @@
     transform: rotate(900deg);
   }
 }/*# sourceMappingURL=Main.css.map */
-.AboutMe{
-  height: 100vh;
-  display: flex;
-  padding-left: 150px;
-  padding-right: 150px;
 
-  align-items: center;
-  
-}
 .Color{
   color:floralwhite;
   line-height:2;
-  margin-top: 200px;
+  
 }
 .position {
   position: fixed;
@@ -107,8 +101,8 @@
 }
 .slider {
   width: 65vw;
-  height: auto;
-  margin: auto;
+  
+
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -137,27 +131,48 @@
 }
 .Skills{
   height: 100vh;
+  align-items: center;
 }
 .icon{
   font-size: 70px;
   color:floralwhite;
 }
 .SkillText{
-  padding-bottom: 130px;
-  padding-top: 66px;
+
   color:floralwhite;
 }
 
 .SkillTexto{
-  padding-top: 150px;
+  
   color:floralwhite;
 }
 .PB{
   color: floralwhite;
   padding-top: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vh;
   
 }
-.px{
-  font-size: 20px;
-  padding-left: 15px;
+
+.whitecolor{
+  color: floralwhite;
 }
+.whitecolorx{
+  color: floralwhite;
+}
+.whitecolorx:hover{
+  color:#a56606
+}
+.asd{ color: #a56606}
+.alto{
+  font-size: 50px;
+}
+.estilizando{
+  padding-bottom:95px
+}
+.estilizando2{
+  padding-top: 55px;
+}
+

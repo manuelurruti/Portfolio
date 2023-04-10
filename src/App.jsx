@@ -1,4 +1,5 @@
-import { useState } from "react";
+
+import { Card } from "./components/Card";
 
 import logo from "../src/assets/logo.svg";
 
@@ -22,7 +23,7 @@ function App()
             </a>
           </li>
           <li>
-            <a href="#AboutMe" className="HoverBlack" onClick={preventScroll}>
+            <a href="#AboutMe" className="HoverBlack">
               ABOUT ME
             </a>
           </li>
@@ -33,9 +34,8 @@ function App()
             </a>
           </li>
           <li>MY PROYECTS</li>
-          <li>CURRICULUM</li>
-          <li>CONTACT</li>
-          <li>PLAYROOM!</li>
+          <li> <a href="#Cv" className="HoverBlack">CURRICULUM</a></li>
+          <li> <a href="#Contact" className="HoverBlack">CONTACT</a></li>
         </ul>
       </header>
       <div className="App">
@@ -43,15 +43,15 @@ function App()
           <div className="App-header">
             <img src={logo} className="App-logo asd" alt="logo" />
             <h2 className="name">Manuel Urruti</h2>
-            <h3 className="text">Front-end Developer</h3>
+            <h3 className="text">Full-stack Developer</h3>
           </div>
         </section>
       </div>
 
-      <div className="AboutMe">
-        <section className="" id="AboutMe">
-          <h3 className="Color">
-            Hello! My name is Manuel Urruti, and I was born on July 25th, 1998,
+   
+        <section className="d-flex justify-content-center align-items-center AboutMe" id="AboutMe">
+          <h3 className="p-5 Color">
+            Hello! My name is Manuel Urruti, I was born on July 25th, 1998,
             in Olavarria, Buenos Aires, Argentina. I am a full-stack student
             with a particular passion for front-end development. I am a
             proactive individual who is always eager to learn and bring value to
@@ -62,14 +62,15 @@ function App()
             teamwork is essential to achieving success in any project.
           </h3>
         </section>
-      </div>
+    
   
-      <div className="Skills d-flex justify-content-center align-items-center">
-        <section className="" id="Skills">
-          <h2 className="d-flex justify-content-center align-items-center SkillText ">
+     
+        <section className="d-flex justify-content-center align-items-center Skills flex-column" id="Skills">
+         <div className="estilizando"> 
+          <h2 className="d-flex justify-content-center align-center p-5 whitecolor ">
             My skills
           </h2>
-          <div></div>
+         
           <div className="slider">
             <div className="slide-track">
               <div className="slide">
@@ -136,10 +137,12 @@ function App()
               </div>
             </div>
           </div>
+          </div>
+          <div className="estilizando2"> 
           <h2 className="d-flex justify-content-center align-items-center SkillTexto">
             Soft skills
           </h2>
-          <div className="d-flex justify-content-around align-items-centert PB">
+          <div className="PB">
          
           <i className=" d-flex flex-row fa-solid fa-check">
               <p className="px">Communication</p>
@@ -161,8 +164,26 @@ function App()
             </i>
            
           </div>
+          </div>
         </section>
-      </div>
+ 
+<Card/>
+        
+    
+      <section className="d-flex justify-content-center align-items-center flex-column Skills" id="Cv">
+                <h1 className="whitecolor">CURRICULUM</h1>
+                <a target="_blank" href="./CvManuelUrruti.pdf">
+                    <i className="fa-solid fa-download asd alto"></i>
+                </a>
+            </section>  
+            <section className="d-flex justify-content-center align-items-center flex-column Skills" id="Contact">
+            <h1 className="p-5 whitecolor">Contact</h1>
+            <div className="d-flex justify-content-space-around">  <a href="https://www.linkedin.com/in/manuel-urruti-b9ab69262/" target="_blank"><i className="fa-brands fa-linkedin p-3 whitecolorx alto"></i></a>
+            <a href="https://wa.me/228415355903" target="_blank"><i className="fa-brands fa-whatsapp p-3 whitecolorx alto"></i></a>
+            <a href="mailto:manuelurrutimarquez@gmail.com" target="_blank"><i className="fa-solid fa-envelope  p-3 whitecolorx alto"></i></a> </div>
+          
+            </section>  
+              
     </>
   );
 }

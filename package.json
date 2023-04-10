@@ -9,11 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-
+    "@react-spring/web": "^9.7.2",
+    "@use-gesture/react": "^10.2.26",
     "bootstrap": "^5.3.0-alpha3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.10.0"
+    "react-grid-carousel": "^1.0.1",
+    "react-router-dom": "^6.10.0",
+    "react-spring": "^9.7.1",
+    "use-3d-effect": "^1.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
