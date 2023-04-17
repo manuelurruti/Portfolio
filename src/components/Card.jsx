@@ -7,8 +7,7 @@ import "./Card.css"
 export const Card  = () => {
 
     return (
- <> 
- <h1 className='d-flex justify-content-center p-3 parraf'>My proyects!</h1>
+
               <Carousel cols={3} rows={1} gap={1} loop>
             
               <Carousel.Item>
@@ -73,7 +72,7 @@ export const Card  = () => {
               {/* ... */}
               
             </Carousel>
-            </>
+     
           )
         }
 
