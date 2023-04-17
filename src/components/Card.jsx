@@ -12,7 +12,7 @@ export const Card  = () => {
               <Carousel cols={3} rows={1} gap={1} loop>
             
               <Carousel.Item>
-              <Link to={"https://dashboard-tmwc.onrender.com"}><img width="95%" className='photo' src="../../image4.png" /></Link>
+             <img width="95%" className='photo' src="../../image4.png" />
                 <h3 className='parraf'>Perfumall</h3>
                 <p className='parraf'>e-commerce of perfumes.</p>
                 <p className='parraf'>Fullstack</p>
