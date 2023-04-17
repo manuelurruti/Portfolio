@@ -8,8 +8,7 @@ import { Link } from 'react-router-dom';
 export const Card  = () => {
 
     return (
- <> 
- <h1 className='d-flex justify-content-center p-3 parraf'>My proyects!</h1>
+
               <Carousel cols={3} rows={1} gap={1} loop>
             
               <Carousel.Item>
@@ -21,7 +20,7 @@ export const Card  = () => {
 
               </Carousel.Item>
               <Carousel.Item>
-              <img width="95%" className='photo' src="../../image2.png" />
+            <img width="95%" className='photo' src="../../image2.png" />
                 <h3 className='parraf'>Dashboard of Perfumall</h3>
                
               </Carousel.Item>
@@ -74,7 +73,7 @@ export const Card  = () => {
               {/* ... */}
               
             </Carousel>
-            </>
+         
           )
         }
 
