@@ -33,7 +33,7 @@ function App()
               SKILLS
             </a>
           </li>
-          <li>MY PROYECTS</li>
+          <li> <a href="#Proyect" className="HoverBlack">MY PROYECTS</a></li>
           <li> <a href="#Cv" className="HoverBlack">CURRICULUM</a></li>
           <li> <a href="#Contact" className="HoverBlack">CONTACT</a></li>
         </ul>
@@ -74,66 +74,66 @@ function App()
           <div className="slider">
             <div className="slide-track">
               <div className="slide">
-                <i className="fa-brands fa-react icon"></i>
+                <i className="fa-brands fa-react icon HoverBlack"></i>
               </div>
               <div className="slide">
-                <i className="fa-brands fa-bootstrap icon"></i>
+                <i className="fa-brands fa-bootstrap icon HoverBlack"></i>
               </div>
               <div className="slide">
-                <i className="fa-brands fa-css3-alt icon"></i>
+                <i className="fa-brands fa-css3-alt icon HoverBlack"></i>
               </div>
               <div className="slide">
-                <i className="fa-brands fa-html5 icon"></i>
+                <i className="fa-brands fa-html5 icon HoverBlack"></i>
               </div>
               <div className="slide">
-                <i className="fa-brands fa-node-js icon"></i>
+                <i className="fa-brands fa-node-js icon HoverBlack"></i>
               </div>
               <div className="slide">
-                <i className="fa-brands fa-js icon"></i>
-              </div>
-
-              <div className="slide">
-                <i className="fa-brands fa-github icon"></i>
-              </div>
-              <div className="slide">
-                <i className="fa-solid fa-database icon"></i>
+                <i className="fa-brands fa-js icon HoverBlack"></i>
               </div>
 
               <div className="slide">
-                <i className="fa-brands fa-sass icon"></i>
+                <i className="fa-brands fa-github icon HoverBlack"></i>
+              </div>
+              <div className="slide">
+                <i className="fa-solid fa-database icon HoverBlack"></i>
               </div>
 
               <div className="slide">
-                <i className="fa-brands fa-react icon"></i>
-              </div>
-              <div className="slide">
-                <i className="fa-brands fa-bootstrap icon"></i>
-              </div>
-              <div className="slide">
-                <i className="fa-brands fa-css3-alt icon"></i>
-              </div>
-              <div className="slide">
-                <i className="fa-brands fa-html5 icon"></i>
-              </div>
-              <div className="slide">
-                <i className="fa-brands fa-node-js icon"></i>
-              </div>
-              <div className="slide">
-                <i className="fa-brands fa-js icon"></i>
+                <i className="fa-brands fa-sass icon HoverBlack"></i>
               </div>
 
               <div className="slide">
-                <i className="fa-brands fa-github icon"></i>
+                <i className="fa-brands fa-react icon HoverBlack"></i>
               </div>
               <div className="slide">
-                <i className="fa-solid fa-database icon"></i>
+                <i className="fa-brands fa-bootstrap icon HoverBlack"></i>
               </div>
               <div className="slide">
-                <i className="fa-brands fa-mdb"></i>
+                <i className="fa-brands fa-css3-alt icon HoverBlack"></i>
+              </div>
+              <div className="slide">
+                <i className="fa-brands fa-html5 icon HoverBlack"></i>
+              </div>
+              <div className="slide">
+                <i className="fa-brands fa-node-js icon HoverBlack"></i>
+              </div>
+              <div className="slide">
+                <i className="fa-brands fa-js icon HoverBlack"></i>
               </div>
 
               <div className="slide">
-                <i className="fa-brands fa-sass icon"></i>
+                <i className="fa-brands fa-github icon HoverBlack"></i>
+              </div>
+              <div className="slide">
+                <i className="fa-solid fa-database icon HoverBlack"></i>
+              </div>
+              <div className="slide">
+                <i className="fa-brands fa-mdb HoverBlack"></i>
+              </div>
+
+              <div className="slide">
+                <i className="fa-brands fa-sass icon HoverBlack"></i>
               </div>
             </div>
           </div>
@@ -166,8 +166,8 @@ function App()
           </div>
           </div>
         </section>
- 
-<Card/>
+ <section className="d-flex justify-content-center align-items-center flex-column Skills"  id="Proyect"><Card/></section>
+
         
     
       <section className="d-flex justify-content-center align-items-center flex-column Skills" id="Cv">

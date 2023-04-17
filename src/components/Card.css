@@ -2,3 +2,20 @@
     width:200px;
     height: 350px;
 }
+.photo{
+    height:340px;
+}
+.parraf{
+    color:floralwhite;
+    width: 90%;
+    list-style: none;
+    text-decoration: none;
+}
+.letter{
+    list-style: none;
+    text-decoration: none;
+    color: floralwhite;
+}
+.letter:hover{
+    color: #a56606;
+}
