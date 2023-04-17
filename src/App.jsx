@@ -179,7 +179,7 @@ function App()
             <section className="d-flex justify-content-center align-items-center flex-column Skills" id="Contact">
             <h1 className="p-5 whitecolor">Contact</h1>
             <div className="d-flex justify-content-space-around">  <a href="https://www.linkedin.com/in/manuel-urruti-b9ab69262/" target="_blank"><i className="fa-brands fa-linkedin p-3 whitecolorx alto"></i></a>
-            {/* <a href="https://wa.me/228415355903" target="_blank"><i className="fa-brands fa-whatsapp p-3 whitecolorx alto"></i></a> */}
+         
             <a href="mailto:manuelurrutimarquez@gmail.com" target="_blank"><i className="fa-solid fa-envelope  p-3 whitecolorx alto"></i></a> </div>
           
             </section>  
