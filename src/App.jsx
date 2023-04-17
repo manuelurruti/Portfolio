@@ -1,5 +1,5 @@
 
-import { Card } from "./components/Card";
+
 
 import logo from "../src/assets/logo.svg";
 
@@ -166,7 +166,7 @@ function App()
           </div>
           </div>
         </section>
- <section className="d-flex justify-content-center align-items-center flex-column Skills"  id="Proyect"><Card/></section>
+
 
         
     
