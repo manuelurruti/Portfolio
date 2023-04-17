@@ -48,9 +48,9 @@ function App()
         </section>
       </div>
 
-   
-        <section className="d-flex justify-content-center align-items-center AboutMe" id="AboutMe">
-          <h3 className="p-5 Color">
+   <div className="AboutMe" id="AboutMe">
+        <section className="flexin">
+          <h3 className="Color">
             Hello! My name is Manuel Urruti, I was born on July 25th, 1998,
             in Olavarria, Buenos Aires, Argentina. I am a full-stack student
             with a particular passion for front-end development. I am a
@@ -62,7 +62,7 @@ function App()
             teamwork is essential to achieving success in any project.
           </h3>
         </section>
-    
+        </div>
   
      
         <section className="d-flex justify-content-center align-items-center Skills flex-column" id="Skills">

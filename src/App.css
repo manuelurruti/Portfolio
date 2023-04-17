@@ -10,6 +10,9 @@
 }
 .AboutMe{
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
 }
 
 #header {
@@ -30,7 +33,7 @@
 }
 .HoverBlack:hover {
   color: #a56606;
-}/*# sourceMappingURL=header.css.map */
+}
 .App {
   text-align: center;
 }
@@ -85,12 +88,19 @@
   to {
     transform: rotate(900deg);
   }
-}/*# sourceMappingURL=Main.css.map */
+}
 
 .Color{
   color:floralwhite;
   line-height:2;
+  font-size: 1.2rem;
   
+}
+.flexin{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .position {
   position: fixed;

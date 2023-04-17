@@ -3,7 +3,7 @@
     height: 350px;
 }
 .photo{
-    height:340px;
+    height:300px;
 }
 .parraf{
     color:floralwhite;
@@ -11,6 +11,10 @@
     list-style: none;
     text-decoration: none;
 }
+.text{
+    font-size: 22px;
+}
+
 .letter{
     list-style: none;
     text-decoration: none;
