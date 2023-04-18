@@ -1,5 +1,5 @@
 
-import { Card } from "./components/Card";
+
 
 import logo from "../src/assets/logo.svg";
 
@@ -12,8 +12,11 @@ function App()
     const element = document.getElementById("AboutMe");
     element.scrollIntoView({ behavior: "smooth" });
   }
+
+  const images = [ {image:"image4.png", text:"asdasd"}, {image:"image2.png", text:"asdasd"},{image:"api.png", text:"asdasd"},{image:"image1.png", text:"asdasd"},{image:"image5.png", text:"asdasd"},{image:"image6.png", text:"asdasd"}]
   return (
     <>
+   
       <header className="position">
         <ul className="ulHeader" id="header">
           <li>
@@ -49,6 +52,7 @@ function App()
       </div>
 
    <div className="AboutMe" id="AboutMe">
+ 
         <section className="flexin">
           <h3 className="Color">
             Hello! My name is Manuel Urruti, I was born on July 25th, 1998,
@@ -166,14 +170,72 @@ function App()
           </div>
           </div>
         </section>
- <section className="d-flex justify-content-center align-items-center flex-column Skills"  id="Proyect"><Card/></section>
+        <section className="section"  id="Proyect">
+          <h1 className="whitecolor paddij">Some of my proyects</h1>
+          <div className="master">
+    
+    <div className='height'>
+      <div className="card xx">
+  <img src="../image4.png" className="card-img-top" alt="Sunset Over the Sea"/>
+  <div className="card-body">
+    <h2 className="card-text whitecolor">Perfumall</h2>
+    <p className="card-text whitecolor">Fullstack app</p>
 
+  </div>
+</div>
+</div>
+
+    <div className='height'>
+      <div className="card xx">
+  <img src="../image2.png" className="card-img-top" alt="Sunset Over the Sea"/>
+  <div className="card-body">
+    <h4 className="card-text whitecolor">Dashboard of perfumall</h4>
+  </div>
+</div>
+</div>
+
+    <div className='height'>
+      <div className="card xx">
+  <img src="../api.png" className="card-img-top" alt="Sunset Over the Sea"/>
+  <div className="card-body">
+    <h4 className="card-text whitecolor">API of perfumall</h4>
+  </div>
+</div>
+</div>
+<div className='height'>
+      <div className="card xx">
+  <img src="../rick.png" className="card-img-top" alt="Sunset Over the Sea"/>
+  <div className="card-body">
+    <h4 className="card-text whitecolor">Rick & morty app</h4>
+  </div>
+</div>
+</div>
+
+<div className='height'>
+      <div className="card xx">
+  <img src="../image5.png" className="card-img-top" alt="Sunset Over the Sea"/>
+  <div className="card-body">
+    <h4 className="card-text whitecolor">Wheater App</h4>
+  </div>
+</div>
+</div>
+<div className='height'>
+      <div className="card xx">
+  <img src="../image6.png" className="card-img-top" alt="Sunset Over the Sea"/>
+  <div className="card-body">
+    <h4 className="card-text whitecolor">Films</h4>
+  </div>
+</div>
+</div>
+<h2 className="whitecolor">And more proyects <a href="https://github.com/manuelurruti" className="none">HERE!</a></h2>
+</div>
+</section>
         
     
       <section className="d-flex justify-content-center align-items-center flex-column Skills" id="Cv">
                 <h1 className="whitecolor">CURRICULUM</h1>
                 <a target="_blank" href="./CvManuelUrruti.pdf">
-                    <i className="fa-solid fa-download asd alto"></i>
+                    <i className="fa-solid fa-download asdxx alto"></i>
                 </a>
             </section>  
             <section className="d-flex justify-content-center align-items-center flex-column Skills" id="Contact">

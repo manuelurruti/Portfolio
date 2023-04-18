@@ -1,25 +1,20 @@
-.Cardiv{
-    width:200px;
-    height: 350px;
+div.card.xx{
+  height: 350px;
+  width: 370px;
+ 
 }
-.photo{
-    height:300px;
+.card-img-top{
+  height: 60%;
 }
-.parraf{
-    color:floralwhite;
-    width: 90%;
-    list-style: none;
-    text-decoration: none;
-}
-.text{
-    font-size: 22px;
-}
+.height{
+  height: 350px;
 
-.letter{
-    list-style: none;
-    text-decoration: none;
-    color: floralwhite;
+
 }
-.letter:hover{
-    color: #a56606;
+.master{
+  display:flex;
+  flex-direction: row ;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
 }

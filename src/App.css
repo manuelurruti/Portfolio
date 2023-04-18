@@ -39,15 +39,15 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
-  fill: red !important;
+
 }
 
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s cubic-bezier(0.5,-2.36, 0.5, 2.35);
     position: relative;
     bottom: 60px;
   }
@@ -139,10 +139,14 @@
       transform: translateX(calc(-120px * 11));
   }
 }
+
 .Skills{
   height: 100vh;
-  align-items: center;
+  display: flex;
+  
 }
+
+
 .icon{
   font-size: 70px;
   color:floralwhite;
@@ -175,7 +179,7 @@
 .whitecolorx:hover{
   color:#a56606
 }
-.asd{ color: #a56606}
+.asd{ color: #2b2b2b}
 .alto{
   font-size: 50px;
 }
@@ -185,4 +189,31 @@
 .estilizando2{
   padding-top: 55px;
 }
+.asdxx{
+  color:#a56606;
+}
+.master{
+  display: flex;
+  justify-content: space-around;
+  gap:50px;
+  flex-wrap: wrap;
 
+}
+.section{
+  height: 100vh;
+ display:flex;
+align-items: center;
+ flex-direction: column;
+ justify-content: center;
+
+  
+    
+}
+.paddij{
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.none{
+  text-decoration: none;
+  color:#a56606;
+}
