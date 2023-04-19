@@ -170,60 +170,85 @@ function App()
           </div>
           </div>
         </section>
-        <section className="section"  id="Proyect">
-          <h1 className="whitecolor paddij">Some of my proyects</h1>
+        <section className="sectionX"  id="Proyect">
+          <h1 className="d-flex justify-content-center whitecolor paddij">Some of my proyects</h1>
           <div className="master">
     
     <div className='height'>
-      <div className="card xx">
+      <div className="card xx border">
   <img src="../image4.png" className="card-img-top" alt="Sunset Over the Sea"/>
-  <div className="card-body">
-    <h2 className="card-text whitecolor">Perfumall</h2>
-    <p className="card-text whitecolor">Fullstack app</p>
-
+    <h4 className="card-text whitecolor">Perfumall</h4>
+    <p className="card-text whitecolor">Fullstack application</p>
+    <div className=" card-body d-flex align-items-end">
+    <div className="d-flex flex-row justify-content-start important">
+ <a href="https://github.com/manuelurruti/perfumall" target="a_blank" ><i className="fa-brands fa-github iconxx HoverBlack"></i></a>
+  <a href="https://perfumall-mv7u.onrender.com/" target="a_blank"><i className="fa-solid fa-eye iconxx HoverBlack"></i></a>
+ </div>
   </div>
 </div>
 </div>
 
     <div className='height'>
-      <div className="card xx">
+      <div className="card xx border">
   <img src="../image2.png" className="card-img-top" alt="Sunset Over the Sea"/>
-  <div className="card-body">
-    <h4 className="card-text whitecolor">Dashboard of perfumall</h4>
+    <h4 className="card-text whitecolor">React dashboard of Perfumall</h4>
+   
+
+    <div className="card-body d-flex align-items-end">
+    <div className="d-flex flex-row justify-content-start important">
+    <a href="https://github.com/manuelurruti/dataPerfumall-Dashboard" target="a_blank" ><i className="fa-brands fa-github iconxx HoverBlack"></i></a>
+    <a href="https://dashboard-tmwc.onrender.com" target="a_blank"><i className="fa-solid fa-eye iconxx HoverBlack"></i></a>
+ </div>
   </div>
 </div>
 </div>
 
     <div className='height'>
-      <div className="card xx">
+      <div className="card xx border">
   <img src="../api.png" className="card-img-top" alt="Sunset Over the Sea"/>
-  <div className="card-body">
     <h4 className="card-text whitecolor">API of perfumall</h4>
+  <div className="card-body d-flex align-items-end">
+    <div className="d-flex flex-row justify-content-start important">
+    <a href="https://github.com/manuelurruti/API-perfumall" target="a_blank" ><i className="fa-brands fa-github iconxx HoverBlack"></i></a>
+    <a href="https://api-perfumall.onrender.com/" target="a_blank"><i className="fa-solid fa-eye iconxx HoverBlack"></i></a>
+ </div>
   </div>
 </div>
 </div>
 <div className='height'>
-      <div className="card xx">
+      <div className="card xx border">
   <img src="../rick.png" className="card-img-top" alt="Sunset Over the Sea"/>
-  <div className="card-body">
     <h4 className="card-text whitecolor">Rick & morty app</h4>
+    <div className="card-body d-flex align-items-end">
+    <div className="d-flex flex-row justify-content-start important">
+    <a href="https://github.com/manuelurruti/rickymorty" target="a_blank" ><i className="fa-brands fa-github iconxx HoverBlack"></i></a>
+    <a href="https://rikandmortyx.onrender.com/" target="a_blank"><i className="fa-solid fa-eye iconxx HoverBlack"></i></a>
+ </div>
   </div>
 </div>
 </div>
 
 <div className='height'>
-      <div className="card xx">
+      <div className="card xx border">
   <img src="../image5.png" className="card-img-top" alt="Sunset Over the Sea"/>
-  <div className="card-body">
     <h4 className="card-text whitecolor">Wheater App</h4>
+    <div className="card-body d-flex align-items-end">
+    <div className="d-flex flex-row justify-content-start important">
+    <a href="https://github.com/manuelurruti/Wheater-App" target="a_blank" ><i className="fa-brands fa-github iconxx HoverBlack"></i></a>
+    <a href="https://wheaterapp-efdp.onrender.com/" target="a_blank"><i className="fa-solid fa-eye iconxx HoverBlack"></i></a>
+ </div>
   </div>
 </div>
 </div>
 <div className='height'>
-      <div className="card xx">
+      <div className="card xx border">
   <img src="../image6.png" className="card-img-top" alt="Sunset Over the Sea"/>
-  <div className="card-body">
     <h4 className="card-text whitecolor">Films</h4>
+    <div className="card-body d-flex align-items-end">
+    <div className="d-flex flex-row justify-content-start important">
+    <a href="https://github.com/manuelurruti/films" target="a_blank" ><i className="fa-brands fa-github iconxx HoverBlack"></i></a>
+    <a href="https://films-1ct6.onrender.com/" target="a_blank"><i className="fa-solid fa-eye iconxx HoverBlack"></i></a>
+ </div>
   </div>
 </div>
 </div>

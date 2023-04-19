@@ -14,7 +14,10 @@
   justify-content: center;
   align-items: center ;
 }
-
+.height{
+  height: 80%;
+  
+}
 #header {
   display: flex;
   justify-content: space-around;
@@ -43,7 +46,15 @@
   pointer-events: none;
 
 }
-
+.border{
+  border: 2px solid #b2b2b2 !important;
+}
+h4{
+  margin: 0px !important; 
+}
+p{
+  margin: 0px !important; 
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -151,6 +162,15 @@
   font-size: 70px;
   color:floralwhite;
 }
+.iconxx{
+  font-size: 30px;
+  color:floralwhite;
+  padding-left: 5px;
+  padding-top: 5px;
+
+  padding-right: 5px;
+
+}
 .SkillText{
 
   color:floralwhite;
@@ -172,6 +192,7 @@
 
 .whitecolor{
   color: floralwhite;
+  padding-left: 10px;
 }
 .whitecolorx{
   color: floralwhite;
@@ -195,12 +216,12 @@
 .master{
   display: flex;
   justify-content: space-around;
-  gap:50px;
+  gap:20px;
   flex-wrap: wrap;
 
 }
-.section{
-  height: 100vh;
+.sectionX{
+  height: 100%;
  display:flex;
 align-items: center;
  flex-direction: column;
