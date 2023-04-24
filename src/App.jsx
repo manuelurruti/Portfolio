@@ -259,7 +259,7 @@ function App()
     
       <section className="d-flex justify-content-center align-items-center flex-column Skills" id="Cv">
                 <h1 className="whitecolor">CURRICULUM</h1>
-                <a target="_blank" href="CvEnglish.pdf">
+                <a target="_blank" href="./CvEnglish.pdf">
                     <i className="fa-solid fa-download asdxx alto"></i>
                 </a>
             </section>  
